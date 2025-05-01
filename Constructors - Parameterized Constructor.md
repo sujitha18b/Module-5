@@ -1,12 +1,10 @@
-# Exp.No:21  
+# Exp.No:5A
 ## Constructors - Parameterized Constructor
 
----
 
 ### AIM  
 To write a Python code to create a class for a person with a parameterized constructor, which will take the `name` and `userid` of the person as parameters and print the `userid` of the person.
 
----
 
 ### ALGORITHM
 
@@ -19,14 +17,26 @@ To write a Python code to create a class for a person with a parameterized const
 7. Create an instance `s1` of the `person` class by passing the entered `name` and `userid` to the constructor.  
 8. Terminate the program.
 
----
+
 
 ### PROGRAM
 
-```
-
-```
+class Person: <br />
+    def __init__(self,a,b):  <br />
+        self.a = a <br />
+        self.b = b <br />
+        
+  def display(self): <br />
+        print(b) <br />
+        
+a = input() <br />
+b = input() <br />
+c = Person(a,b) <br />
+c.display()
 
 ### OUTPUT
 
+![Screenshot 2025-05-01 122053](https://github.com/user-attachments/assets/41d4be2d-ba91-402c-800d-2ede50161ec1)
+
 ### RESULT
+Thus,the given python program is implemented and executed sucessfully.
